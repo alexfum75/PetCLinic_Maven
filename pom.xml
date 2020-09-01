@@ -255,8 +255,8 @@
 				<!--	<version>2.3.2</version>  -->
 				<configuration>
 					<verbose>true</verbose>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>2.3.2</source>
+					<target>2.3.2</target>
 					<showWarnings>true</showWarnings>
 				</configuration>
 			</plugin>
