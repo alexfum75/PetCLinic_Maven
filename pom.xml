@@ -257,7 +257,6 @@
 					<verbose>true</verbose>
 					<source>1.6</source>
 					<target>1.6</target>
-					<skipTests>true</skipTests>
 					<showWarnings>true</showWarnings>
 				</configuration>
 			</plugin>
@@ -265,6 +264,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
+					<skipTests>true</skipTests>
 					<includes>
 						<include>**/*Tests.java</include>
 					</includes>
